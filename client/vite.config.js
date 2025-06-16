@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/user': 'http://localhost:5000'
+      '/user': 'https://notehive-v2.onrender.com'
     }
   }
 })
